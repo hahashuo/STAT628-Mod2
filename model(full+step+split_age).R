@@ -1,5 +1,5 @@
 rm(list=ls())
-dat=read.csv("adjust_bodyfat.csv",header=TRUE)
+dat=read.csv("./Data/preprocess_data.csv",header=TRUE)
 library(MASS)
 library(tidyverse)
 #delete the variable density
