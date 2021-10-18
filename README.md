@@ -17,3 +17,6 @@ Diagnostics Uploaded: Oct-18-2021 (Haishuo Chen)
 1. model diagnostics on linear model assumptions and high leverage points.
 2. Drop two high leverage points and improve the performance of our model.
 3. Validate performance on test data.
+
+Code Clean: Oct-18-2021 (Haishuo Chen)
+1. two files: Diagnostics, full model and lasso
