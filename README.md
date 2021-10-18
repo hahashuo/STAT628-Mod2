@@ -12,3 +12,8 @@ Building Models Uploaded: Oct-17-2021 (Yixuan Wang)
 1. Build the full model with linear regression, return the estimated coefficients, stds, t-statistics, p-values, adjusted R-squared and RMSE.
 2. Using 3-fold and cross-validation to find the curve of lambda and training and test score.
 3. Build two Lasso regression models, return the estimated coefficients, stds, t-statistics, p-values, adjusted R-squared and RMSE.
+
+
+Building Models Uploaded: Oct-18-2021 (Suhui Liu)
+1. Build the full model, Stepwise, using linear regression by R, return the estimated coefficients, stds, t-statistics, p-values, adjusted R-squared and RMSE.
+2. Split in age groups model using R, return the estimated coefficients, stds, t-statistics, p-values, adjusted R-squared and RMSE.
