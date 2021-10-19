@@ -24,3 +24,9 @@ Diagnostics Uploaded: Oct-18-2021 (Haishuo Chen)
 
 Code Clean: Oct-18-2021 (Haishuo Chen)
 1. two files: Diagnostics, full model and lasso
+
+How to use the code:
+1. Using preprocess.ipynb in python to cleaning the data, replace the outliers, change the measurement from inch/lbs to m/kg.
+2. Using model(full+step+split_age).R in R to build the full model, stepwise regression model and split in age model, and get their coefficient estimation, adjusted R square and RMSE.
+3. Using Module2(Full Model+Lasso Regression).ipynb in python to build the full model and lasso regression with lambda=0.2 and 1, and get their coefficient estimation, confidence intervals, adjusted R square and RMSE.
+4. Using Diagnostics.ipynb in python to test the linear regression assumptions, find the outliers and high leverage points, and do the overfitting and performance test.
