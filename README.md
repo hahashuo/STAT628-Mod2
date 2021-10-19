@@ -31,3 +31,4 @@ How to use the code:
 3. Using Module2(Full Model+Lasso Regression).ipynb in python to build the full model and lasso regression with lambda=0.2 and 1, and get their coefficient estimation, confidence intervals, adjusted R square and RMSE.
 4. Using Diagnostics.ipynb in python to test the linear regression assumptions, find the outliers and high leverage points, and do the overfitting and performance test.
 5. Using shiny_app.R in R to build our shiny app.
+6. All plots are from model(full+step+split_age).R and Diagnostics.ipynb, all tables are summarized by our group which is the screenshot from our presentation slides.
