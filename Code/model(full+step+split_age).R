@@ -24,7 +24,6 @@ plot(BODYFAT~AGE,dat=dat_del)
 dat_del$age_group<-'g2'
 dat_del$age_group[which(dat$AGE<=40)]<-'g1'
 dat_del$age_group[which(dat$AGE>60)]<-'g3'
-plot(BODYFAT~AGE,dat=dat_del)
 boxplot(BODYFAT~age_group,data = dat_del)
 #======age group under 40======
 substi<-function(str){
