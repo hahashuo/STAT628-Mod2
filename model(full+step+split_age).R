@@ -20,6 +20,7 @@ summary(step.model)
 test<-dat_del[,c('AGE','NECK','ABDOMEN','HIP','THIGH','FOREARM','WRIST','WEIGHT_KG')]
 rmse(test,actual,step.model)
 #=========split in age========
+plot(BODYFAT~AGE,dat=dat_del)
 dat_del$age_group<-'g2'
 dat_del$age_group[which(dat$AGE<=40)]<-'g1'
 dat_del$age_group[which(dat$AGE>60)]<-'g3'
